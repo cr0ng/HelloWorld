@@ -118,7 +118,7 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	   *****
 	*/
 
-	/*printf("1번 \n");
+	printf("1번 \n");
 	printf("  *  \n");
 	printf(" *** \n");
 	printf("*****\n\n");
@@ -132,14 +132,14 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 
 	
 	printf("3번 \n");
-	int x, y, tmp;
+	int x, y, temp;
 
 	printf("두 수를 입력하세요 : ");
 	std::cin >> x;
 	std::cin >> y;
-	tmp = y;
+	temp = y;
 	y = x;
-	x = tmp;
+	x = temp;
 	printf("입력된 숫자를 거꾸로 출력해보면 %d , %d 입니다\n\n", x, y);
 
 	printf("4번 \n");
@@ -156,7 +156,7 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	std::cin >> a;
 	std::cin >> b;
 	c = a - (a / b)*b;
-	printf("두 수를 나눈 나머지 값은 %d 입니다.\n", c );*/
+	printf("두 수를 나눈 나머지 값은 %d 입니다.\n\n", c );
 
 
 	printf("6번 \n");
