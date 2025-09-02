@@ -85,19 +85,19 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 
 	// number라는 이름을 가진 int(인티저) 변수를 선언하고 거기에 0을 대입
 	//int number,age = 0;
-	int number; // 변수 선언.
-	number = 0; // 변수에 값을 대입
+	//int number; // 변수 선언.
+	//number = 0; // 변수에 값을 대입
 
-	int number1 = 0; // 0으로 초기화 해주기
-	int number2 = 0; // 숫자를 바로 넣어주는 습관 기르기
-	printf("숫자 1을 입력하시오 : ");
-	std::cin >> number1;
-	printf("숫자 2를 입력하시오 : ");
-	std::cin >> number2;
+	//int number1 = 0; // 0으로 초기화 해주기
+	//int number2 = 0; // 숫자를 바로 넣어주는 습관 기르기
+	//printf("숫자 1을 입력하시오 : ");
+	//std::cin >> number1;
+	//printf("숫자 2를 입력하시오 : ");
+	//std::cin >> number2;
 
-	int number3 = number1 + number2;
-	printf("두 숫자의 합은 %d 입니다.\n", number1 + number2);
-	printf("두 숫자의 합은 %d 입니다.\n", number3);
+	//int number3 = number1 + number2;
+	//printf("두 숫자의 합은 %d 입니다.\n", number1 + number2);
+	//printf("두 숫자의 합은 %d 입니다.\n", number3);
 
 
 	//scanf("%d", &number); // 숫자 하나 입력받기
@@ -111,6 +111,104 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	//scanf("%d", &age);
 	//std::cin >> age;
 	//printf("나이는 %d살 입니다.", age);
+
+	/* 1번 printf문을 이용해서 아래와 같은 모양 찍어보기
+		 *
+		***
+	   *****
+	*/
+
+	/*printf("1번 \n");
+	printf("  *  \n");
+	printf(" *** \n");
+	printf("*****\n\n");
+
+
+	printf("2번 \n");
+	printf("□□□□□□□□\n");
+	printf("□ □     □  □ \n");
+	printf("□     □     □ \n");
+	printf("□□□□□□□□\n\n");
+
+	
+	printf("3번 \n");
+	int x, y, tmp;
+
+	printf("두 수를 입력하세요 : ");
+	std::cin >> x;
+	std::cin >> y;
+	tmp = y;
+	y = x;
+	x = tmp;
+	printf("입력된 숫자를 거꾸로 출력해보면 %d , %d 입니다\n\n", x, y);
+
+	printf("4번 \n");
+	int width, height = 0;
+	printf("가로, 세로를 입력하세요 : ");
+	std::cin >> width;
+	std::cin >> height;
+	printf("가로가 %d이고 세로가 %d인 사각형의 넓이는 %d 입니다.\n\n", width, height, width * height);
+
+	printf("5번 \n");
+
+	int a, b, c;
+	printf("두 수를 입력하세요 : ");
+	std::cin >> a;
+	std::cin >> b;
+	c = a - (a / b)*b;
+	printf("두 수를 나눈 나머지 값은 %d 입니다.\n", c );*/
+
+
+	printf("6번 \n");
+	int time, hour, min, sec, tmp = 0;
+
+	printf("초를 입력하세요 ");
+	std::cin >> time;
+	hour = time / (60 * 60);
+	tmp = time - (hour * 60 * 60);
+	min = tmp / 60;
+	tmp = tmp - (min * 60);
+	sec = tmp;
+
+	/* 나머지 연산자로 해보기
+	hour = time / (60 * 60);
+	tmp = time % (hour * 60 * 60);
+	min = tmp / 60;
+	tmp = tmp % (min * 60);
+	sec = tmp;
+	*/
+
+	printf("입력한 %d초는 %d시간 %d분 %d초 입니다.\n\n", time, hour, min, sec);
+
+	printf("7번 \n");
+	int coin500, coin100, coin50, coin10, money = 0;
+
+	printf("금액을 입력하세요 : ");
+	std::cin >> money;
+
+	coin500 = money / 500;
+	money = money - (coin500 * 500);
+	coin100 = money / 100;
+	money = money - (coin100 * 100);
+	coin50 = money / 50;
+	money = money - (coin50 * 50);
+	coin10 = money / 10;
+
+	printf("동전으로는 500원짜리 %d개, 100원짜리 %d개, 50원짜리 %d개, 10원짜리 %d개가 필요합니다.\n\n", coin500, coin100, coin50, coin10);
+
+
+	printf("8번 \n");
+	int number, hundreds, tens, units = 0;
+
+	printf("세 자리 숫자를 입력하세요 : ");
+	std::cin >> number;
+
+	hundreds = number / 100;
+	tens = (number % 100) / 10;
+	units = (number % 10);
+
+
+	printf("%d인 100의 자리, %d인 10의 자리, %d인 1의 자리. \n\n", hundreds, tens, units);
 
 	return 0;
 }
