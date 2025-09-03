@@ -290,13 +290,13 @@ int lesson0903() {
 	double Sum = 0.0;
 	int Count = 0;
 
-	InFile >> Value;
+	//InFile >> Value;
 	while (InFile.good()) { // 입력이 양호하고 EOF가 아닌 동안
 	//while (InFile >> Value){
 		++Count;
-		printf("value : %.2lf \n", Value);
-		Sum += Value;
 		InFile >> Value;
+		Sum += Value;
+		printf("value : %.2lf \n", Value);
 	}
 
 	if (InFile.eof())
