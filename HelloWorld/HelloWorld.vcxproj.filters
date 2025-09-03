@@ -24,6 +24,12 @@
     <ClCompile Include="header.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="lesson0903.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson0902.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">

@@ -125,6 +125,8 @@
   <ItemGroup>
     <ClCompile Include="header.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="lesson0902.cpp" />
+    <ClCompile Include="lesson0903.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />
