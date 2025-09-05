@@ -129,10 +129,12 @@
     <ClCompile Include="lesson0903.cpp" />
     <ClCompile Include="lesson0904.cpp" />
     <ClCompile Include="lesson0905.cpp" />
+    <ClCompile Include="practice0905.cpp" />
     <ClCompile Include="TestMath.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />
+    <ClInclude Include="practice0905.h" />
     <ClInclude Include="TestMath.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

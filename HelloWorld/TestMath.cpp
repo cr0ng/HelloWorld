@@ -8,11 +8,14 @@ void PrintHelloWorld()
 }
 
 int Sum(int Test1, int Test2)  // int Sum(int, int); 이 선언을 정의했다.
+{	
+	int Result = Test1 + Test2;
+	return Result; // return 은 마지막에 무조건 하나는 있어야한다.
+}
+
+float Sum(float Test1, float Test2)
 {
-	if (Test1 == -1) {
-		return 0;
-	}
-	return Test1 + Test2; // return 은 마지막에 무조건 하나는 있어야한다.
+	return Test1 + Test2;
 }
 
 int Multiply(int Number1, int Number2)
@@ -28,4 +31,14 @@ int Divide(int Test1, int Test2)
 int Minuse(int Test1, int Test2)
 {
 	return Test1 - Test2;
+}
+
+int TestRecurcive(int Number)
+{
+	if (Number < 2)
+	{
+		return 1;
+	}
+	printf("Recurcive : %d\n", Number);
+	return TestRecurcive(Number -1);
 }
