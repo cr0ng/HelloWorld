@@ -2,15 +2,18 @@
 
 
 #include <iostream> // 입출력 관련 (cout)
-#include < stdio.h>
+#include <stdio.h>
 #include <cstdio>  // stdio.h에 네임스페이스 추가한 래퍼
 #include "header.h"
+#include "TestMath.h"
 
 //using namespace std;
 
 //int lesson0902();
 //int lesson0903();
-int lesson0904();
+//int lesson0904();
+int lesson0905();
+
 
 int main() // 엔트리 포인트 (코드가 시작되는 곳)
 {
@@ -18,8 +21,15 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 
 	//lesson0902();	// 9월 2일 내용
 	//lesson0903();	// 9월 3일 내용
-	lesson0904();	// 9월 3일 내용
+	//lesson0904();	// 9월 4일 내용
+	lesson0905();	// 9월 5일 내용
+	int Number = Sum(1, 7); // Sum 함수를 호출했다. 파라미터로 1과 7을 넘김. 그리고 8을 돌려받았다.
+	Number = Multiply(2, 3);
+	Number = Multiply(7);
+	Number = Divide(8,2);
+	Number = Minuse(7,3);
 
+	printf("%d\n", Number);
 	return 0;
 }
 
