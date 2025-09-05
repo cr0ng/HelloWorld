@@ -7,6 +7,7 @@
 #include "header.h"
 #include "TestMath.h"
 #include "practice0905.h"
+#include "HW0906.h"
 
 //using namespace std;
 
@@ -184,6 +185,18 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	int Result = FactorialNumber(InputNumber);
 	printf("%d \n", Result);*/
 
+
+
+
+
+
+	// 1번 문제
+	int AvgNumber1 = 0, AvgNumber2 = 0, AvgNumber3 = 0;
+	printf("평균을 구할 3개의 숫자를 입력하세요  :");
+	std::cin >> AvgNumber1 >> AvgNumber2 >> AvgNumber3;
+
+	// 2번 문제
+	//printf("%d", SalePrice(100, 50));
 	return 0;
 }
 
