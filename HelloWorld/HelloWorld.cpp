@@ -14,7 +14,7 @@
 //int lesson0902();
 //int lesson0903();
 //int lesson0904();
-
+//int TurnBattle();
 
 int main() // 엔트리 포인트 (코드가 시작되는 곳)
 {
@@ -82,7 +82,7 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 
 		ScoreRanking(Score);
 	}*/
-	
+
 	// 6번 문제
 	/*enum Item {
 		KEY = 1 << 0,
@@ -191,13 +191,156 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 
 
 	// 1번 문제
-	int AvgNumber1 = 0, AvgNumber2 = 0, AvgNumber3 = 0;
+	/*int AvgNumber1 = 0, AvgNumber2 = 0, AvgNumber3 = 0;
 	printf("평균을 구할 3개의 숫자를 입력하세요  :");
-	std::cin >> AvgNumber1 >> AvgNumber2 >> AvgNumber3;
+	std::cin >> AvgNumber1 >> AvgNumber2 >> AvgNumber3;*/
 
 	// 2번 문제
 	//printf("%d", SalePrice(100, 50));
-	return 0;
+
+	// 3번 문제
+	/*int Dice = ThrowDice();
+	printf("주사위를 굴렸습니다!🎲 %d", Dice);
+	*/
+
+	// 4번 문제
+	/*int Score = 0;
+	printf("점수를 입력하세요 : ");
+	std::cin >> Score;
+
+	ScoreGrade(Score);*/
+
+	// 5번 문제
+	/*int Value = 0, Value2 = 0, Value3 = 0;
+	printf("3개의 숫자를 입력하세요. 맨 처음 값은 value 입니다. ");
+	std::cin >> Value >> Value2 >> Value3;
+
+	printf("%d", ClampHW(Value, Value2, Value3));*/
+
+	// 심화 1번 문제
+	/*int InputNumber = 0;
+	printf("숫자를 입력하세요 : ");
+	std::cin >> InputNumber;
+
+	printf("%d 의 각 자리 수의 합은 %d 입니다.", InputNumber, SumEachDigit(InputNumber));*/
+
+	// 심화 2번 문제
+	/*int DecimalNumber = 0;
+	printf("2진수로 변환할 10진수 수를 입력하세요  : ");
+	std::cin >> DecimalNumber;
+	printf("%d를 2진수로 변환하면", DecimalNumber);
+	int BinaryNuber = RecurciveDecimalToBinary(DecimalNumber);*/
+
+	// 심화 3번 문제
+	/*int BattingMoney = 0;
+	int Funds = 10000;
+	printf("슬롯 머신 게임 시작! 첫 소지금은 10000원 \n");
+
+	while (Funds > 100) {
+		printf("얼마를 배팅하시겠습니까?");
+		std::cin >> BattingMoney;
+		if (BattingMoney > Funds) {
+			printf("소지금보다 큰 금액을 배팅할 수 없습니다.\n");
+		}
+		else if (BattingMoney <= 100) {
+			printf("\n배팅은 100원 이상 해야합니다.\n");
+		}
+		else {
+			Funds = SlotGame(Funds ,BattingMoney);
+			printf("소지금 : %d\n", Funds);
+		}
+	}
+	printf("돈이 부족합니다. 게임을 종료합니다. \n");*/
+
+	// 심화 4번 문제
+	//enum turn {
+	//PLAYER = 1,
+	//MONSTER = 2,
+	//};
+	//int PlayerHP = 100;
+	//int MonsterHP = 100;
+	//int Turn = 1;
+	//int Damage = 0;
+
+	//srand(time(0));
+	//printf("전투를 시작합니다.\n플레이어 체력 : 100, 몬스터 체력 : 100 \n플레이어 먼저 시작 \n");
+	//
+	//while ((PlayerHP > 0) && (MonsterHP > 0)) {
+	//	Damage = TurnBattle();
+	//	if (Turn == PLAYER) {
+	//		//플레이어 공격 차례
+	//		printf("\n▶ 플레이어 공격 \n");
+	//		MonsterHP -= Damage;
+	//		printf("몬스터 남은 체력 : %d \n", MonsterHP);
+	//		Turn = MONSTER;
+	//	}
+	//	else {
+	//		//몬스터 공격 차례
+	//		printf("\n▷ 몬스터 공격 \n");
+	//		PlayerHP -= Damage;
+	//		printf("플레이어 남은 체력 : %d \n", PlayerHP);
+	//		Turn = PLAYER;
+	//	}
+	//}
+
+	//if (PlayerHP > 0) {
+	//	printf("플레이어의 승리입니다.");
+	//}
+	//else {
+	//	printf("플레이어의 패배입니다.");
+	//}
+
+	// 심화 5번 문제
+	int SelectCard = 0;
+	int Funds = 10000;
+	int BattingMoney = 0;
+	printf("도둑 잡기를 시작합니다. 현재 플레이어의 소지금 : %d\n", Funds);
+
+	srand(time(0));
+	
+
+	while (Funds > 100) {
+		printf("얼마를 배팅하시겠습니까?");
+		std::cin >> BattingMoney;
+		
+		if (BattingMoney > Funds) {
+			printf("소지금보다 큰 금액을 배팅할 수 없습니다.\n");
+		}
+		else if (BattingMoney <= 100) {
+			printf("\n배팅은 100원 이상 해야합니다.\n");
+		}
+		else {
+			int Card1 = PickCard();
+			int Card2 = PickCard();
+	
+			while (Card1 == Card2) {
+				Card2 = PickCard();		// 중복없는 카드 2장 뽑기
+			}
+			printf("첫번째로 뽑은 카드는 %d 두번째로 뽑은 카드는 %d \n", Card1, Card2);  // 카드 확인용
+
+			int CardLocation1 = MixCard();
+			int CardLocation2 = MixCard();
+			int CardLocation3 = MixCard();
+
+			while (CardLocation1 == CardLocation2) {	// 1,2 중복 없게
+				CardLocation2 = MixCard();
+			}
+			while (CardLocation3 == CardLocation1 || CardLocation3 == CardLocation2) { // 모두 중복 없게
+				CardLocation3 = MixCard();
+			}
+			printf("%d %d %d \n", CardLocation1, CardLocation2, CardLocation3);
+			printf("3가지 카드 중 한 장을 고르세요 [1, 2, 3] "); // 카드 별 위치
+			std::cin >> SelectCard;
+			
+			Funds = PickJocker(SelectCard, CardLocation3, BattingMoney, Funds);
+
+		}
+	}
+	printf("돈이 부족합니다. 게임을 종료합니다. \n");
+	
+
+	return 0; 
+
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
@@ -210,3 +353,4 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 //   4. [오류 목록] 창을 사용하여 오류를 봅니다.
 //   5. [프로젝트] > [새 항목 추가]로 이동하여 새 코드 파일을 만들거나, [프로젝트] > [기존 항목 추가]로 이동하여 기존 코드 파일을 프로젝트에 추가합니다.
 //   6. 나중에 이 프로젝트를 다시 열려면 [파일] > [열기] > [프로젝트]로 이동하고 .sln 파일을 선택합니다.
+
