@@ -1,5 +1,7 @@
 #pragma once
 
+int HW0906();
+
 // Practice1
 float Avg3Number(int Number1, int Number2, int Number3);
 
@@ -15,7 +17,7 @@ int ScoreGrade(int Score);
 // Practice5
 template <typename T>
 T ClampHW(T Value, T Value2, T Value3) {
-	if (Value2 < Value3) { // Value2가 min, Value2가 max
+	if (Value2 < Value3) { // Value2가 min, Value3가 max
 		if (Value < Value2) {
 			return Value2;
 		}

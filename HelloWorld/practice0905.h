@@ -62,3 +62,5 @@ T Clamp(T Value, T Min, T Max) {
 
 // 재귀함수로 팩토리얼 구하기
 int FactorialNumber(int Number);
+
+void Practice0905_02_05();
