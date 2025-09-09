@@ -131,6 +131,7 @@
     <ClCompile Include="lesson0904.cpp" />
     <ClCompile Include="lesson0905.cpp" />
     <ClCompile Include="lesson0908.cpp" />
+    <ClCompile Include="lesson0909.cpp" />
     <ClCompile Include="Practice0905.cpp" />
     <ClCompile Include="TestMath.cpp" />
   </ItemGroup>
@@ -138,6 +139,7 @@
     <ClInclude Include="header.h" />
     <ClInclude Include="HW0906.h" />
     <ClInclude Include="lesson0908.h" />
+    <ClInclude Include="lesson0909.h" />
     <ClInclude Include="Practice0905.h" />
     <ClInclude Include="TestMath.h" />
   </ItemGroup>

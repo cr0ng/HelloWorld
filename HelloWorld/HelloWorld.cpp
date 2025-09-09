@@ -1,5 +1,8 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 
+#define _CRTDBG_MAP_ALLOC
+#define new new(_NORMAL_BLOCK,__FILE__, __LINE__ )
+#include <crtdbg.h>
 
 #include <iostream> // 입출력 관련 (cout)
 #include <stdio.h>
@@ -8,6 +11,7 @@
 #include "TestMath.h"
 #include "Practice0905.h"
 #include "lesson0908.h"
+#include "lesson0909.h"
 #include "HW0906.h"
 
 //using namespace std;
@@ -19,6 +23,8 @@
 
 int main() // 엔트리 포인트 (코드가 시작되는 곳)
 {	
+	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+	
 	//Practice0905_02_05();
 	
 	//lesson0902();	// 9월 2일 내용
@@ -26,8 +32,8 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	//lesson0904();	// 9월 4일 내용
 	//lesson0905();	// 9월 5일 내용
 	//HW0906(); // 1주차 주말 과제
-	Lesson0908();	// 9월 8일 내용
-	 
+	//Lesson0908();	// 9월 8일 내용
+	Lesson0909();
 
 
 

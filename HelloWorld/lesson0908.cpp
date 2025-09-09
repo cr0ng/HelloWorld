@@ -228,7 +228,7 @@ int EscapeMaze()
 	
 
 	printf("==텍스트 미로 탈출 게임==\n");
-
+	
 	// 미로 배열
 	int Maze[MazeHeight][MazeWidth] =
 	{
