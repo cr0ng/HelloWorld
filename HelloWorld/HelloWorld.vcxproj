@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EscapeMaze.cpp" />
     <ClCompile Include="header.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="HW0906.cpp" />
@@ -132,14 +133,17 @@
     <ClCompile Include="lesson0905.cpp" />
     <ClCompile Include="lesson0908.cpp" />
     <ClCompile Include="lesson0909.cpp" />
+    <ClCompile Include="lesson0910.cpp" />
     <ClCompile Include="Practice0905.cpp" />
     <ClCompile Include="TestMath.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EscapeMaze.h" />
     <ClInclude Include="header.h" />
     <ClInclude Include="HW0906.h" />
     <ClInclude Include="lesson0908.h" />
     <ClInclude Include="lesson0909.h" />
+    <ClInclude Include="lesson0910.h" />
     <ClInclude Include="Practice0905.h" />
     <ClInclude Include="TestMath.h" />
   </ItemGroup>

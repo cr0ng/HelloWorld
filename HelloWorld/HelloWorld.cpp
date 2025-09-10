@@ -12,7 +12,9 @@
 #include "Practice0905.h"
 #include "lesson0908.h"
 #include "lesson0909.h"
+#include "lesson0910.h"
 #include "HW0906.h"
+#include "EscapeMaze.h"
 
 //using namespace std;
 
@@ -33,7 +35,9 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	//lesson0905();	// 9월 5일 내용
 	//HW0906(); // 1주차 주말 과제
 	//Lesson0908();	// 9월 8일 내용
-	Lesson0909();
+	//Lesson0909();	// 9월 9일 내용
+	//Lesson0910();	// 9월 10일 내용
+	Day0908MazeEscape();
 
 
 
