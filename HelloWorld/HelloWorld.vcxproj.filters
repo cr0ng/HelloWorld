@@ -60,6 +60,9 @@
     <ClCompile Include="lesson0911.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="baekjoon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -87,6 +90,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="lesson0911.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="baekjoon.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

@@ -16,6 +16,7 @@
 #include "lesson0911.h"
 //#include "HW0906.h"
 //#include "EscapeMaze.h"
+#include "baekjoon.h"
 
 //using namespace std;
 
@@ -38,9 +39,9 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	//Lesson0908();	// 9월 8일 내용
 	//Lesson0909();	// 9월 9일 내용
 	//Lesson0910();	// 9월 10일 내용
-	Lesson0911();	// 9월 11일 내용
+	//Lesson0911();	// 9월 11일 내용
 	//MazeEscapeRun();
-
+	baekjoon1();
 
 
 

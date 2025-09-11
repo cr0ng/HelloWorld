@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="baekjoon.cpp" />
     <ClCompile Include="EscapeMaze.cpp" />
     <ClCompile Include="header.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
@@ -139,6 +140,7 @@
     <ClCompile Include="TestMath.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="baekjoon.h" />
     <ClInclude Include="EscapeMaze.h" />
     <ClInclude Include="header.h" />
     <ClInclude Include="HW0906.h" />
