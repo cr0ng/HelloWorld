@@ -4,7 +4,13 @@
 #include <fstream>
 #include <string>
 
-void Day0908MazeEscape()
+
+int MazeWidth = 20;
+int MazeHeight = 10;
+int** Maze = nullptr;
+//int* Maze = nullptr;
+
+void MazeEscapeRun()
 {
 	/*
 	*	- 2차원 배열을 활용하여 텍스트 기반 미로 탈출 게임을 구현.
@@ -54,46 +60,46 @@ void Day0908MazeEscape()
 			```
 	*/
 
-	//int PlayerX = 0;
-	//int PlayerY = 0;
-	//FindStartPosition(PlayerX, PlayerY);
+	int PlayerX = 0;
+	int PlayerY = 0;
+	FindStartPosition(PlayerX, PlayerY);
 
-	//printf("~~ 미로 탈출 게임 ~~\n");
+	printf("~~ 미로 탈출 게임 ~~\n");
 
-	//while (true)
-	//{
-	//	PrintMaze(PlayerX, PlayerY);
+	while (true)
+	{
+		PrintMaze(PlayerX, PlayerY);
 
-	//	if (IsEnd(PlayerX, PlayerY))
-	//	{
-	//		printf("축하합니다! 미로를 탈출했습니다!\n");
-	//		break;
-	//	}
+		if (IsEnd(PlayerX, PlayerY))
+		{
+			printf("축하합니다! 미로를 탈출했습니다!\n");
+			break;
+		}
 
-	//	int MoveFlags = PrintAvailableMoves(PlayerX, PlayerY);
-	//	MoveDirection Direction = GetMoveInput(MoveFlags);
-	//	switch (Direction)
-	//	{
-	//	case DirUp:
-	//		PlayerY--;
-	//		break;
-	//	case DirDown:
-	//		PlayerY++;
-	//		break;
-	//	case DirLeft:
-	//		PlayerX--;
-	//		break;
-	//	case DirRight:
-	//		PlayerX++;
-	//		break;
-	//	case DirNone:
-	//	default:
-	//		// 있을 수 없음
-	//		break;
-	//	}
-	//}
+		int MoveFlags = PrintAvailableMoves(PlayerX, PlayerY);
+		MoveDirection Direction = GetMoveInput(MoveFlags);
+		switch (Direction)
+		{
+		case DirUp:
+			PlayerY--;
+			break;
+		case DirDown:
+			PlayerY++;
+			break;
+		case DirLeft:
+			PlayerX--;
+			break;
+		case DirRight:
+			PlayerX++;
+			break;
+		case DirNone:
+		default:
+			// 있을 수 없음
+			break;
+		}
+	}
 
-	ReadMazeFile();
+	//ReadMazeFile();
 }
 
 

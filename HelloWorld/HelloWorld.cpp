@@ -9,12 +9,13 @@
 #include <cstdio>  // stdio.h에 네임스페이스 추가한 래퍼
 #include "header.h"
 #include "TestMath.h"
-#include "Practice0905.h"
-#include "lesson0908.h"
-#include "lesson0909.h"
-#include "lesson0910.h"
-#include "HW0906.h"
-#include "EscapeMaze.h"
+//#include "Practice0905.h"
+//#include "lesson0908.h"
+//#include "lesson0909.h"
+//#include "lesson0910.h"
+#include "lesson0911.h"
+//#include "HW0906.h"
+//#include "EscapeMaze.h"
 
 //using namespace std;
 
@@ -37,7 +38,8 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	//Lesson0908();	// 9월 8일 내용
 	//Lesson0909();	// 9월 9일 내용
 	//Lesson0910();	// 9월 10일 내용
-	Day0908MazeEscape();
+	Lesson0911();	// 9월 11일 내용
+	//MazeEscapeRun();
 
 
 
