@@ -11,13 +11,14 @@
 #include "TestMath.h"
 //#include "Practice0905.h"
 //#include "lesson0908.h"
-#include "lesson0909.h"
+//#include "lesson0909.h"
 //#include "lesson0910.h"
 //#include "lesson0911.h"
-#include "lesson0912.h"
+//#include "lesson0912.h"
 //#include "HW0906.h"
 //#include "EscapeMaze.h"
 //#include "baekjoon.h"
+#include "HW0913.h"
 
 //using namespace std;
 
@@ -43,12 +44,13 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	//Lesson0911();	// 9월 11일 내용
 	//MazeEscapeRun();
 	//baekjoon1();
-	Lesson0912();	// 9월 12일 내용
+
+	//Lesson0912();	// 9월 12일 내용
 	//OperatorOverloading0912();
 	//Practice1_0912();
 	//BattleReward();
-	Practice3_0909();
-
+	//Practice3_0909();
+	HW0913_1();
 
 
 

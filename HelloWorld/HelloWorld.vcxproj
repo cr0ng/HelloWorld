@@ -128,6 +128,7 @@
     <ClCompile Include="header.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="HW0906.cpp" />
+    <ClCompile Include="HW0913.cpp" />
     <ClCompile Include="lesson0902.cpp" />
     <ClCompile Include="lesson0903.cpp" />
     <ClCompile Include="lesson0904.cpp" />
@@ -145,6 +146,7 @@
     <ClInclude Include="EscapeMaze.h" />
     <ClInclude Include="header.h" />
     <ClInclude Include="HW0906.h" />
+    <ClInclude Include="HW0913.h" />
     <ClInclude Include="lesson0908.h" />
     <ClInclude Include="lesson0909.h" />
     <ClInclude Include="lesson0910.h" />
