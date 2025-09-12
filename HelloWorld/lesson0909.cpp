@@ -1,6 +1,10 @@
 #include "lesson0909.h"
+#include "lesson0912.h"
 #include <stdio.h>
 #include <iostream>
+
+Player P;
+
 
 int Lesson0909() {
 	srand(time(0));
@@ -235,6 +239,7 @@ void Practice2_0909()
 
 int Practice3_0909()
 {
+	
 	enum Key {
 		W = 1 << 0,
 		A = 1 << 1,
@@ -247,8 +252,7 @@ int Practice3_0909()
 
 	int PlayerX = 1;
 	int PlayerY = 1;
-	int PlayerHP = 100;
-
+	//int PlayerHP = 100;
 
 	printf("==텍스트 미로 탈출 게임==\n");
 
@@ -345,31 +349,61 @@ int Practice3_0909()
 				printf("잘못된 입력입니다. 이동할 수 있는 방향 중에서 선택하세요.\n");
 				continue;
 			} // 입력할 수 있는 방향이 아니면
-			
-			
+		
+			// 이동 후 일정 확률에 따라 몬스터 만나거나 HP 회복
+			//int Battleprobability = rand() & 100 + 1;
+			//int Recoverprobability = rand() & 100 + 1;
+
+			//if ((Battleprobability > 0 && Battleprobability <= 20) && !(Recoverprobability > 0 && Recoverprobability <= 10)) {
+			//	PlayerHP = StartMazeBattle(PlayerHP);
+			//	if (PlayerHP <= 0) {
+			//		printf("플레이어가 죽었습니다. 게임을 종료합니다. \n");
+			//		//break;
+			//		return 0;
+			//	}
+			//}
+			//if (!(Battleprobability > 0 && Battleprobability <= 20) && (Recoverprobability > 0 && Recoverprobability <= 10)) {
+			//	PlayerHP = RecoveryHP(PlayerHP);
+			//}
+
+			// 이동 후 일정 확률에 따라 몬스터 만나거나 회복사 만나기
 			int Battleprobability = rand() & 100 + 1;
 			int Recoverprobability = rand() & 100 + 1;
+			Monster M;
 
 			if ((Battleprobability > 0 && Battleprobability <= 20) && !(Recoverprobability > 0 && Recoverprobability <= 10)) {
-				PlayerHP = StartMazeBattle(PlayerHP);
-				if (PlayerHP <= 0) {
+				MazeRandomMonsterBattle(P, M);
+				if (P.PlayerHP <= 0) {
 					printf("플레이어가 죽었습니다. 게임을 종료합니다. \n");
-					//break;
 					return 0;
 				}
 			}
 			if (!(Battleprobability > 0 && Battleprobability <= 20) && (Recoverprobability > 0 && Recoverprobability <= 10)) {
-				PlayerHP = RecoveryHP(PlayerHP);
+				MeetHealer(P,M);
 			}
+
+			// 이동 후 일정 확률에 따라 몬스터 만나서 해치우면 보상으로 HP 회복
+			//int Battleprobability = rand() & 100 + 1;
+			//if ((Battleprobability > 0 && Battleprobability <= 20)) {
+			//	int PlayerHp = BattleResultPlayerHP(PlayerY, PlayerX);
+			//	if (PlayerHp <= 0) {
+			//		printf("플레이어가 죽었습니다. 게임을 종료합니다. \n");
+			//		//break;
+			//		return 0;
+			//	}
+			//}
 
 			break;
 
 		}
-		
+
 	}
 
 	printf("★☆★☆★☆게임 종료★☆★☆★☆\n");
+	return 123;
+
 }
+
 
 int RecoveryHP(int PlayerHP)
 {
@@ -421,6 +455,7 @@ int StartMazeBattle(int PlayerHP)
 
 	return PlayerHP;
 }
+
 int TurnMazeBattle()
 {
 	int Damage = rand() % 11 + 5;
