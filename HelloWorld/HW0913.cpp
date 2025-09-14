@@ -34,7 +34,7 @@ void HW0913_1()
 
 	printf("총 %d일\n", AllDay);
 
-	int Whatday = ((AllDay-1) % 7);
+	int Whatday = ((AllDay-1) % 7); // 1일부터 시작하니까 1 빼기
 	switch (Whatday) {
 	case 0:
 		printf("월");
@@ -60,4 +60,9 @@ void HW0913_1()
 	default:
 		break;
 	}
+}
+
+
+void HW0913_2()
+{
 }

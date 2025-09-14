@@ -18,7 +18,7 @@
 //#include "HW0906.h"
 //#include "EscapeMaze.h"
 //#include "baekjoon.h"
-#include "HW0913.h"
+//#include "HW0913.h"
 
 //using namespace std;
 
@@ -50,7 +50,7 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	//Practice1_0912();
 	//BattleReward();
 	//Practice3_0909();
-	HW0913_1();
+	//HW0913_1();
 
 
 

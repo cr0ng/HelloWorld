@@ -16,6 +16,12 @@
     <Filter Include="헬로월드">
       <UniqueIdentifier>{a5ebc0b8-b291-41b9-b128-1a9643433ed8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Week1">
+      <UniqueIdentifier>{ec0640b2-98b1-402c-9ee0-6ab0ac79fa2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Week2">
+      <UniqueIdentifier>{809bb4f6-7ba9-46cf-8a34-c57710bb3fc5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -24,50 +30,50 @@
     <ClCompile Include="header.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="lesson0903.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="lesson0902.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="lesson0904.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="lesson0905.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="TestMath.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Practice0905.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="HW0906.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="lesson0908.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="lesson0909.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="lesson0910.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="EscapeMaze.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="lesson0911.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="baekjoon.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="lesson0902.cpp">
+      <Filter>소스 파일\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson0903.cpp">
+      <Filter>소스 파일\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson0904.cpp">
+      <Filter>소스 파일\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson0905.cpp">
+      <Filter>소스 파일\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson0908.cpp">
+      <Filter>소스 파일\Week2</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson0909.cpp">
+      <Filter>소스 파일\Week2</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson0910.cpp">
+      <Filter>소스 파일\Week2</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson0911.cpp">
+      <Filter>소스 파일\Week2</Filter>
+    </ClCompile>
     <ClCompile Include="lesson0912.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Week2</Filter>
     </ClCompile>
     <ClCompile Include="HW0913.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Week2</Filter>
+    </ClCompile>
+    <ClCompile Include="HW0906.cpp">
+      <Filter>소스 파일\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice0905.cpp">
+      <Filter>소스 파일\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMath.cpp">
+      <Filter>소스 파일\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="EscapeMaze.cpp">
+      <Filter>소스 파일\Week2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
