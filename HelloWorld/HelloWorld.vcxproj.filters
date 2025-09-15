@@ -17,10 +17,13 @@
       <UniqueIdentifier>{a5ebc0b8-b291-41b9-b128-1a9643433ed8}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\Week1">
-      <UniqueIdentifier>{ec0640b2-98b1-402c-9ee0-6ab0ac79fa2b}</UniqueIdentifier>
+      <UniqueIdentifier>{1acecea4-9fa5-4a0a-9b9c-97cc7499e5ae}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\Week2">
-      <UniqueIdentifier>{809bb4f6-7ba9-46cf-8a34-c57710bb3fc5}</UniqueIdentifier>
+      <UniqueIdentifier>{95ef03b6-f427-45ce-af1f-1ed30b253403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Week3">
+      <UniqueIdentifier>{a1ae2b70-3134-4d0b-9336-d35f00355743}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -28,6 +31,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="header.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMath.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EscapeMaze.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="baekjoon.cpp">
@@ -45,6 +54,12 @@
     <ClCompile Include="lesson0905.cpp">
       <Filter>소스 파일\Week1</Filter>
     </ClCompile>
+    <ClCompile Include="HW0906.cpp">
+      <Filter>소스 파일\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="HW0913.cpp">
+      <Filter>소스 파일\Week2</Filter>
+    </ClCompile>
     <ClCompile Include="lesson0908.cpp">
       <Filter>소스 파일\Week2</Filter>
     </ClCompile>
@@ -60,20 +75,17 @@
     <ClCompile Include="lesson0912.cpp">
       <Filter>소스 파일\Week2</Filter>
     </ClCompile>
-    <ClCompile Include="HW0913.cpp">
-      <Filter>소스 파일\Week2</Filter>
-    </ClCompile>
-    <ClCompile Include="HW0906.cpp">
-      <Filter>소스 파일\Week1</Filter>
-    </ClCompile>
     <ClCompile Include="Practice0905.cpp">
       <Filter>소스 파일\Week1</Filter>
     </ClCompile>
-    <ClCompile Include="TestMath.cpp">
-      <Filter>소스 파일\Week1</Filter>
+    <ClCompile Include="lesson0915.cpp">
+      <Filter>소스 파일\Week3</Filter>
     </ClCompile>
-    <ClCompile Include="EscapeMaze.cpp">
+    <ClCompile Include="BlackJack.cpp">
       <Filter>소스 파일\Week2</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>소스 파일\Week3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -111,6 +123,15 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="HW0913.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lesson0915.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackJack.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

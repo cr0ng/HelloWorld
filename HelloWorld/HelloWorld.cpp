@@ -19,6 +19,10 @@
 //#include "EscapeMaze.h"
 //#include "baekjoon.h"
 //#include "HW0913.h"
+//#include "Position.h"
+#include "BlackJack.h"
+#include "lesson0915.h"
+
 
 //using namespace std;
 
@@ -30,7 +34,17 @@
 int main() // 엔트리 포인트 (코드가 시작되는 곳)
 {	
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+	srand(time(0));
+	/*Position posA(1, 2);
+	Position posB(3, 1);
+	Position posC = posA + posB;
+	Position posD = posA - posB;*/
 	
+	int i = 0;
+
+	//Position pos2;
+	//Position pos2 = Position(); // 안되는 이유 기본생성자가 없어서
+
 	//Practice0905_02_05();
 	
 	//lesson0902();	// 9월 2일 내용
@@ -51,7 +65,7 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	//BattleReward();
 	//Practice3_0909();
 	//HW0913_1();
-
+	Day0915_WeekPracticeBlackjack();
 
 
 	return 0; 
