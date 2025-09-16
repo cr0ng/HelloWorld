@@ -123,9 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
     <ClCompile Include="baekjoon.cpp" />
+    <ClCompile Include="Bird.cpp" />
     <ClCompile Include="BlackJack.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Cat.cpp" />
     <ClCompile Include="EscapeMaze.cpp" />
+    <ClCompile Include="Goblin.cpp" />
     <ClCompile Include="header.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="HW0906.cpp" />
@@ -140,14 +145,27 @@
     <ClCompile Include="lesson0911.cpp" />
     <ClCompile Include="lesson0912.cpp" />
     <ClCompile Include="lesson0915.cpp" />
+    <ClCompile Include="lesson0916.cpp" />
+    <ClCompile Include="MazePlayer.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Oak.cpp" />
     <ClCompile Include="Position.cpp" />
     <ClCompile Include="Practice0905.cpp" />
+    <ClCompile Include="Rabbit.cpp" />
+    <ClCompile Include="Skeleton.cpp" />
     <ClCompile Include="TestMath.cpp" />
+    <ClCompile Include="Tiger.cpp" />
+    <ClCompile Include="Zombie.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animal.h" />
     <ClInclude Include="baekjoon.h" />
+    <ClInclude Include="Bird.h" />
     <ClInclude Include="BlackJack.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Cat.h" />
     <ClInclude Include="EscapeMaze.h" />
+    <ClInclude Include="Goblin.h" />
     <ClInclude Include="header.h" />
     <ClInclude Include="HW0906.h" />
     <ClInclude Include="HW0913.h" />
@@ -157,9 +175,17 @@
     <ClInclude Include="lesson0911.h" />
     <ClInclude Include="lesson0912.h" />
     <ClInclude Include="lesson0915.h" />
+    <ClInclude Include="lesson0916.h" />
+    <ClInclude Include="MazePlayer.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Oak.h" />
     <ClInclude Include="Position.h" />
     <ClInclude Include="Practice0905.h" />
+    <ClInclude Include="Rabbit.h" />
+    <ClInclude Include="Skeleton.h" />
     <ClInclude Include="TestMath.h" />
+    <ClInclude Include="Tiger.h" />
+    <ClInclude Include="Zombie.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

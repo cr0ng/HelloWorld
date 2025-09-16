@@ -33,34 +33,34 @@ bool IsLeap(int Year);
 /// <returns>전체 일수</returns>
 int GetTotalDays(int Year, int Month, int Day);
 
-/// <summary>
-/// 블랙잭 게임 만들기
-/// </summary>
-void HW0913_2();
-
-/// <summary>
-/// 카드 통째로 가져오기 
-/// </summary>
-void TrumpCardSets(Card* InDeck);
-
-
-/// <summary>
-/// 블랙잭 게임 시작하기
-/// </summary>
-void PlayingBlackJack();
-
-struct Card
-{
-	int Value = 0;
-	char Shape = 0;
-};
-
-void ShuffleTrumpDeck(Card* InDeck);
-void AddCard(Card* InHand, int& InCount, const Card& InCard);
-/// <summary>
-/// 카드 한장 뽑기 
-/// </summary>
-/// <param name="InDeck"></param>
-/// <param name="InTop"></param>
-/// <returns></returns>
-const Card& GiveCard(Card* InDeck, int& InTop);
+///// <summary>
+///// 블랙잭 게임 만들기
+///// </summary>
+//void HW0913_2();
+//
+///// <summary>
+///// 카드 통째로 가져오기 
+///// </summary>
+//void TrumpCardSets(Card* InDeck);
+//
+//
+///// <summary>
+///// 블랙잭 게임 시작하기
+///// </summary>
+//void PlayingBlackJack();
+//
+//struct Card
+//{
+//	int Value = 0;
+//	char Shape = 0;
+//};
+//
+//void ShuffleTrumpDeck(Card* InDeck);
+//void AddCard(Card* InHand, int& InCount, const Card& InCard);
+///// <summary>
+///// 카드 한장 뽑기 
+///// </summary>
+///// <param name="InDeck"></param>
+///// <param name="InTop"></param>
+///// <returns></returns>
+//const Card& GiveCard(Card* InDeck, int& InTop);

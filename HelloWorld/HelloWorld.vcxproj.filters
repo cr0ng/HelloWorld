@@ -25,6 +25,12 @@
     <Filter Include="소스 파일\Week3">
       <UniqueIdentifier>{a1ae2b70-3134-4d0b-9336-d35f00355743}</UniqueIdentifier>
     </Filter>
+    <Filter Include="동물 시리즈">
+      <UniqueIdentifier>{4bf44fbf-acbc-4df5-972e-265daef01aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="몬스터 시리즈">
+      <UniqueIdentifier>{15fa07fd-8ff0-4494-9d1e-422f2676da88}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -87,6 +93,45 @@
     <ClCompile Include="Position.cpp">
       <Filter>소스 파일\Week3</Filter>
     </ClCompile>
+    <ClCompile Include="lesson0916.cpp">
+      <Filter>소스 파일\Week3</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>동물 시리즈</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiger.cpp">
+      <Filter>동물 시리즈</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>동물 시리즈</Filter>
+    </ClCompile>
+    <ClCompile Include="Rabbit.cpp">
+      <Filter>동물 시리즈</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>동물 시리즈</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>몬스터 시리즈</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>몬스터 시리즈</Filter>
+    </ClCompile>
+    <ClCompile Include="Goblin.cpp">
+      <Filter>몬스터 시리즈</Filter>
+    </ClCompile>
+    <ClCompile Include="Oak.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MazePlayer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -132,6 +177,45 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="BlackJack.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lesson0916.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>동물 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiger.h">
+      <Filter>동물 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>동물 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>동물 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="Rabbit.h">
+      <Filter>동물 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>몬스터 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>몬스터 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
+      <Filter>몬스터 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="Oak.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MazePlayer.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

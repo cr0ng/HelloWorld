@@ -137,13 +137,13 @@ struct Player
 
 };
 
-struct Monster
+struct MonsterData
 {
 	float MonsterHP = 100.0f;
 	float MonsterAttack = 100.0f;
 	int MonsterReward = 100;
 
-	Monster()
+	MonsterData()
 	{
 		MonsterHP = rand() % 100 + 50; // 50~150
 		MonsterAttack = rand() % 15 + 10; // 10~25
@@ -164,5 +164,5 @@ void OperatorOverloading0912();
 void Practice1_0912();
 
 //float BattleResultPlayerHP(int PlayerY, int PlayerX);
-void MazeRandomMonsterBattle(Player& _Player, Monster& _Monster);
-void MeetHealer(Player& _Player, Monster& _Monster);
+void MazeRandomMonsterBattle(Player& _Player, MonsterData& _Monster);
+void MeetHealer(Player& _Player, MonsterData& _Monster);

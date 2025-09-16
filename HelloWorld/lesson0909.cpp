@@ -369,7 +369,7 @@ int Practice3_0909()
 			// 이동 후 일정 확률에 따라 몬스터 만나거나 회복사 만나기
 			int Battleprobability = rand() & 100 + 1;
 			int Recoverprobability = rand() & 100 + 1;
-			Monster M;
+			MonsterData M;
 
 			if ((Battleprobability > 0 && Battleprobability <= 20) && !(Recoverprobability > 0 && Recoverprobability <= 10)) {
 				MazeRandomMonsterBattle(P, M);

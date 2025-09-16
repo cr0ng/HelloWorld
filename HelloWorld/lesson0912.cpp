@@ -111,7 +111,7 @@ void Practice1_0912()
 //}
 
 
-void MazeRandomMonsterBattle(Player& P, Monster& M)
+void MazeRandomMonsterBattle(Player& P, MonsterData& M)
 {
 	
 	enum turn {
@@ -177,7 +177,7 @@ void MazeRandomMonsterBattle(Player& P, Monster& M)
 	}
 }
 
-void MeetHealer(Player& P, Monster& M)
+void MeetHealer(Player& P, MonsterData& M)
 {
 	enum AttackOrHP {
 		ATTACK,

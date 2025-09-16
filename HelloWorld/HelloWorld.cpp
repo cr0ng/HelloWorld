@@ -20,9 +20,10 @@
 //#include "baekjoon.h"
 //#include "HW0913.h"
 //#include "Position.h"
-#include "BlackJack.h"
-#include "lesson0915.h"
+//#include "BlackJack.h"
+//#include "lesson0915.h"
 
+#include "lesson0916.h"
 
 //using namespace std;
 
@@ -40,8 +41,26 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	Position posC = posA + posB;
 	Position posD = posA - posB;*/
 	
-	int i = 0;
-
+	Day0916 day0916;
+	//day0916.ClassInstance();
+	//day0916.TestAnimal();
+	//day0916.TestTiger();
+	/*day0916.TestCat();
+	printf("\n\n\n\n");
+	day0916.TestBird();
+	printf("\n\n\n\n");
+	day0916.TestRabbit();*/
+	//day0916.TestMonsters();
+	day0916.ZombieTest();
+	printf("\n\n");
+	day0916.GoblinTest();
+	printf("\n\n");
+	day0916.OakTest();
+	printf("\n\n");
+	day0916.SkeletonTest();
+	printf("\n\n");
+	day0916.MazePlayerTest();
+	
 	//Position pos2;
 	//Position pos2 = Position(); // 안되는 이유 기본생성자가 없어서
 
@@ -65,7 +84,7 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	//BattleReward();
 	//Practice3_0909();
 	//HW0913_1();
-	Day0915_WeekPracticeBlackjack();
+	//Day0915_WeekPracticeBlackjack();
 
 
 	return 0; 
