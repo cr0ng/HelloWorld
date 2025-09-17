@@ -123,14 +123,26 @@
     <ClCompile Include="Goblin.cpp">
       <Filter>몬스터 시리즈</Filter>
     </ClCompile>
-    <ClCompile Include="Oak.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Skeleton.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="MazePlayer.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson0917.cpp">
+      <Filter>소스 파일\Week3</Filter>
+    </ClCompile>
+    <ClCompile Include="Day0917.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Hawk.cpp">
+      <Filter>동물 시리즈</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Oak.cpp">
+      <Filter>몬스터 시리즈</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>몬스터 시리즈</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -209,14 +221,38 @@
     <ClInclude Include="Goblin.h">
       <Filter>몬스터 시리즈</Filter>
     </ClInclude>
-    <ClInclude Include="Oak.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Skeleton.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="MazePlayer.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lesson0917.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Day0917.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Hawk.h">
+      <Filter>동물 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSample.h">
+      <Filter>동물 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IFlyable.h">
+      <Filter>동물 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>몬스터 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="Oak.h">
+      <Filter>몬스터 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="ISwim.h">
+      <Filter>동물 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="ICanBattle.h">
+      <Filter>동물 시리즈</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

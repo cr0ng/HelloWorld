@@ -5,6 +5,8 @@ class Bird : public Animal
 {
 public :
 	void Fly();
+	virtual void MakeSound();
+	virtual void Move();
 
 public :
 	Bird() = default;
@@ -13,5 +15,6 @@ public :
 	{
 
 	}
+	virtual ~Bird() {};
 };
 

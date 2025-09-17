@@ -10,12 +10,13 @@ public:
 	Animal(std::string InName)
 		: Name(InName)
 	{ } // 짧은 경우는 함수의 구현이 헤더에 있어도 된다. (자동 inline 처리)
+	virtual ~Animal(){}
 
 	//Animal(const char* InName, float InEnergy, int InAge);
 	//~Animal();
 
-	void Move();
-	void MakeSound();
+	virtual void Move() = 0; // Move는 순수가상함수다
+	virtual void MakeSound();  // MakeSound는 가상함수다
 	void Eat();
 	void Sleep();
 	void ShowInfo();

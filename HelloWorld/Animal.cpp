@@ -9,19 +9,19 @@
 //{
 //}
 
-void Animal::Move()
-{
-	if (Energy < 0.1f)
-	{
-		printf("%s : 힘이 없어서 움직일 수 없습니다..\n", Name.c_str());
-	}
-	else {
-		printf("%s : 움직입니다.\n ",Name.c_str());
-		SetEnergy(Energy - 0.1f);
-		//Energy -= 0.1f;
-		printf("%s : 에너지를 10 소비하였습니다. : %.0f \n", Name.c_str(), Energy*100);
-	}
-}
+//void Animal::Move()
+//{
+//	if (Energy < 0.1f)
+//	{
+//		printf("%s : 힘이 없어서 움직일 수 없습니다..\n", Name.c_str());
+//	}
+//	else {
+//		printf("%s : 움직입니다.\n ",Name.c_str());
+//		SetEnergy(Energy - 0.1f);
+//		//Energy -= 0.1f;
+//		printf("%s : 에너지를 10 소비하였습니다. : %.0f \n", Name.c_str(), Energy*100);
+//	}
+//}
 
 void Animal::MakeSound()
 {

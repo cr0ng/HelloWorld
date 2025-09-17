@@ -33,7 +33,7 @@ void Day0916::ClassInstance()
 
 void Day0916::TestAnimal()
 {
-	Animal animal;
+	/*Animal animal;
 	animal.ShowInfo();
 	animal.MakeSound();
 	animal.Move();
@@ -46,7 +46,7 @@ void Day0916::TestAnimal()
 	animal.ShowInfo();
 
 	int Age = animal.GetAge();
-	const std::string& Name = animal.GetName();
+	const std::string& Name = animal.GetName();*/
 }
 
 void Day0916::TestTiger()
@@ -82,15 +82,15 @@ void Day0916::TestCat()
 	cat.ShowInfo();
 }
 
-void Day0916::TestRabbit()
-{
-	Rabbit rabbit = Rabbit("≈‰≤§");
-	rabbit.Jump();
-	rabbit.Jump();
-	rabbit.Jump();
-	rabbit.ShowInfo();
-
-}
+//void Day0916::TestRabbit()
+//{
+//	Rabbit rabbit = Rabbit("≈‰≤§");
+//	rabbit.Jump();
+//	rabbit.Jump();
+//	rabbit.Jump();
+//	rabbit.ShowInfo();
+//
+//}
 
 void Day0916::TestMonsters()
 {

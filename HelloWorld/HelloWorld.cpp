@@ -22,8 +22,8 @@
 //#include "Position.h"
 //#include "BlackJack.h"
 //#include "lesson0915.h"
-
-#include "lesson0916.h"
+//#include "lesson0916.h"
+#include "Day0917.h"
 
 //using namespace std;
 
@@ -41,7 +41,7 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	Position posC = posA + posB;
 	Position posD = posA - posB;*/
 	
-	Day0916 day0916;
+	//Day0916 day0916;
 	//day0916.ClassInstance();
 	//day0916.TestAnimal();
 	//day0916.TestTiger();
@@ -51,7 +51,7 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	printf("\n\n\n\n");
 	day0916.TestRabbit();*/
 	//day0916.TestMonsters();
-	day0916.ZombieTest();
+	/*day0916.ZombieTest();
 	printf("\n\n");
 	day0916.GoblinTest();
 	printf("\n\n");
@@ -59,8 +59,16 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	printf("\n\n");
 	day0916.SkeletonTest();
 	printf("\n\n");
-	day0916.MazePlayerTest();
+	day0916.MazePlayerTest();*/
 	
+	Day0917 day0917;
+	//day0917.TestPolymorphism();
+	//day0917.TestVirtualFunction();
+	//day0917.TestPractice1();
+
+
+
+
 	//Position pos2;
 	//Position pos2 = Position(); // 안되는 이유 기본생성자가 없어서
 
