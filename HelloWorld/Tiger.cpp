@@ -38,10 +38,10 @@ void Tiger::BattleAnimal()
 	printf("사자 냥냥펀치\n");
 }
 
-void Tiger::Attack(ICanBattle* InTarget)
-{
-	//InTarget->TakeDamage(AttackPower);
-}
+//void Tiger::Attack(ICanBattle* InTarget)
+//{
+//	//InTarget->TakeDamage(AttackPower);
+//}
 
 //void Tiger::TakeDamage(float InDamage){}
 

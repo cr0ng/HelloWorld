@@ -51,15 +51,15 @@ void Day0916::TestAnimal()
 
 void Day0916::TestTiger()
 {
-	Tiger tiger = Tiger("호시기");
-	tiger.Move();
-	tiger.Hunt();
-	tiger.ShowInfo();
+	//Tiger tiger = Tiger("호시기");
+	//tiger.Move();
+	//tiger.Hunt();
+	//tiger.ShowInfo();
 
-	Animal* pAnimal = new Tiger("호돌이");
-	//pAnimal -> Hunt() 사용할 수 없다.
-	delete	pAnimal;
-	pAnimal = nullptr;
+	//Animal* pAnimal = new Tiger("호돌이");
+	////pAnimal -> Hunt() 사용할 수 없다.
+	//delete	pAnimal;
+	//pAnimal = nullptr;
 }
 
 void Day0916::TestBird()
