@@ -33,7 +33,7 @@ void Day0916::ClassInstance()
 
 void Day0916::TestAnimal()
 {
-	Animal animal;
+	/*Animal animal;
 	animal.ShowInfo();
 	animal.MakeSound();
 	animal.Move();
@@ -46,7 +46,7 @@ void Day0916::TestAnimal()
 	animal.ShowInfo();
 
 	int Age = animal.GetAge();
-	const std::string& Name = animal.GetName();
+	const std::string& Name = animal.GetName();*/
 }
 
 void Day0916::TestTiger()
@@ -62,35 +62,35 @@ void Day0916::TestTiger()
 	pAnimal = nullptr;
 }
 
-void Day0916::TestBird()
-{
-	Bird bird = Bird("참새");
-	bird.Fly();
-	bird.Fly();
-	bird.Eat();
-	bird.MakeSound();
-	bird.ShowInfo();
-}
-
-void Day0916::TestCat()
-{
-	Cat cat = Cat("고먐미");
-	cat.Grooming();
-	cat.Grooming();
-	cat.Grooming();
-	cat.Grooming();
-	cat.ShowInfo();
-}
-
-void Day0916::TestRabbit()
-{
-	Rabbit rabbit = Rabbit("토깽");
-	rabbit.Jump();
-	rabbit.Jump();
-	rabbit.Jump();
-	rabbit.ShowInfo();
-
-}
+//void Day0916::TestBird()
+//{
+//	Bird bird = Bird("참새");
+//	bird.Fly();
+//	bird.Fly();
+//	bird.Eat();
+//	bird.MakeSound();
+//	bird.ShowInfo();
+//}
+//
+//void Day0916::TestCat()
+//{
+//	Cat cat = Cat("고먐미");
+//	cat.Grooming();
+//	cat.Grooming();
+//	cat.Grooming();
+//	cat.Grooming();
+//	cat.ShowInfo();
+//}
+//
+//void Day0916::TestRabbit()
+//{
+//	Rabbit rabbit = Rabbit("토깽");
+//	rabbit.Jump();
+//	rabbit.Jump();
+//	rabbit.Jump();
+//	rabbit.ShowInfo();
+//
+//}
 
 void Day0916::TestMonsters()
 {

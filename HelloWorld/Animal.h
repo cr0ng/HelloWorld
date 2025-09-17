@@ -4,18 +4,9 @@
 class Animal
 {
 public:
-	std::string Name = "동물";
 
-	Animal() = default;
-	Animal(std::string InName)
-		: Name(InName)
-	{ } // 짧은 경우는 함수의 구현이 헤더에 있어도 된다. (자동 inline 처리)
-
-	//Animal(const char* InName, float InEnergy, int InAge);
-	//~Animal();
-
-	void Move();
-	void MakeSound();
+	virtual void Move() = 0;
+	virtual void MakeSound();
 	void Eat();
 	void Sleep();
 	void ShowInfo();
@@ -27,7 +18,22 @@ public:
 	// Energy는 외부에서는 읽기 전용이다.
 	inline const float GetEnergy() const { return Energy; }
 
+public:
+
+	Animal() = default;
+	Animal(std::string InName)
+		: Name(InName)
+	{
+	} // 짧은 경우는 함수의 구현이 헤더에 있어도 된다. (자동 inline 처리)
+
+	 //Animal(const char* InName, float InEnergy, int InAge);
+	 //~Animal();
+	 // 
+	virtual ~Animal() {}
+
 protected:
+
+	std::string Name = "동물";
 	float Energy = 1.0f;	// 0.0f ~ 1.0f, 1.0f 일 때 100%;
 	int Age = 0;
 
