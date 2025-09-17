@@ -144,6 +144,12 @@
     <ClCompile Include="Skeleton.cpp">
       <Filter>몬스터 시리즈</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\TeacherCodes\MazeEscape\Player.cpp">
+      <Filter>몬스터 시리즈</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\TeacherCodes\MazeEscape\Actor.cpp">
+      <Filter>몬스터 시리즈</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -253,6 +259,12 @@
     </ClInclude>
     <ClInclude Include="ICanBattle.h">
       <Filter>동물 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\TeacherCodes\MazeEscape\Actor.h">
+      <Filter>몬스터 시리즈</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\TeacherCodes\MazeEscape\Player.h">
+      <Filter>몬스터 시리즈</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

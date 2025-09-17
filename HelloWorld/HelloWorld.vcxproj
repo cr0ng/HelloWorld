@@ -123,6 +123,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\TeacherCodes\MazeEscape\Actor.cpp" />
+    <ClCompile Include="..\..\..\TeacherCodes\MazeEscape\Player.cpp" />
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="baekjoon.cpp" />
     <ClCompile Include="Bird.cpp" />
@@ -162,6 +164,8 @@
     <ClCompile Include="Zombie.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\TeacherCodes\MazeEscape\Actor.h" />
+    <ClInclude Include="..\..\..\TeacherCodes\MazeEscape\Player.h" />
     <ClInclude Include="Animal.h" />
     <ClInclude Include="baekjoon.h" />
     <ClInclude Include="Bird.h" />
