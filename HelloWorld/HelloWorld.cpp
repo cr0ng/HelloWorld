@@ -67,7 +67,8 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	day0917.TestAbstractClass();*/
 
 	lesson0918 lesson0918;
-	lesson0918.TestSingleLinkedList();
+	//lesson0918.TestSingleLinkedList();
+	lesson0918.PracticeLinkedListPrint();
 
 	//Position pos2;
 	//Position pos2 = Position(); // 안되는 이유 기본생성자가 없어서

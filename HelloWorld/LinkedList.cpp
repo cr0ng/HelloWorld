@@ -50,6 +50,7 @@ void LinkedList::InsertAt(int32 InData, uint32 InPosition)
 		Add(InData);	// 마지막 위치에 추가하는 경우는 Add 함수와 동일
 		return;
 	}
+
 	ListNode* NewNode = new ListNode(InData);	// 새 노드 생성
 	if (InPosition == 0)
 	{

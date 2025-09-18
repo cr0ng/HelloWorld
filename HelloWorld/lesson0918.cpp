@@ -1,59 +1,107 @@
-#include "lesson0918.h"
+ï»¿#include "lesson0918.h"
 #include "LinkedList.h"
+#include "PracticeLinkedList.h"
 #include <stdio.h>
 void lesson0918::TestSingleLinkedList() {
 	LinkedList MyList;
 
-	// Add Å×½ºÆ®
-	printf("--------------------Add Å×½ºÆ®--------------------\n");
+	// Add í…ŒìŠ¤íŠ¸
+	printf("--------------------Add í…ŒìŠ¤íŠ¸--------------------\n");
 	MyList.Add(10);
 	MyList.Add(20);
 	MyList.Add(30);
 	MyList.PrintList();
 
-	//InsertAt Å×½ºÆ®
-	printf("\n--------------------InsertAt Å×½ºÆ®--------------------\n");
+	//InsertAt í…ŒìŠ¤íŠ¸
+	printf("\n--------------------InsertAt í…ŒìŠ¤íŠ¸--------------------\n");
 	MyList.InsertAt(40, 100);
 	MyList.PrintList();
 	MyList.InsertAt(5, 0);
 	MyList.PrintList();
-	MyList.InsertAt(15, 2);
+	MyList.InsertAt(15, 5);
 	MyList.PrintList();
 
-	//Remove Å×½ºÆ®
-	printf("\n--------------------Remove Å×½ºÆ®--------------------\n");
+	//Remove í…ŒìŠ¤íŠ¸
+	printf("\n--------------------Remove í…ŒìŠ¤íŠ¸--------------------\n");
 	MyList.Remove(20);
 	MyList.PrintList();
 	MyList.Remove(123);
 	MyList.PrintList();
 
-	// RemoveAt Å×½ºÆ®
-	printf("\n--------------------RemoveAt Å×½ºÆ®--------------------\n");
-	MyList.RemoveAt(10);			// ¾ø´Â°Å »èÁ¦
+	// RemoveAt í…ŒìŠ¤íŠ¸
+	printf("\n--------------------RemoveAt í…ŒìŠ¤íŠ¸--------------------\n");
+	MyList.RemoveAt(10);			// ì—†ëŠ”ê±° ì‚­ì œ
 	MyList.PrintList();
 	MyList.Remove(1);
 	MyList.PrintList();
 
 	// Search test
-	printf("\n--------------------Search Å×½ºÆ®--------------------\n");
+	printf("\n--------------------Search í…ŒìŠ¤íŠ¸--------------------\n");
 	ListNode* Found = MyList.Search(15);
 	if (Found)
 	{
-		printf("15¸¦ Ã£¾Ò½À´Ï´Ù. \n");
+		printf("15ë¥¼ ì°¾ì•˜ìŠµë‹ˆë‹¤. \n");
 	}
 	else
 	{
-		printf("15°¡ ¾ø½À´Ï´Ù. \n");
+		printf("15ê°€ ì—†ìŠµë‹ˆë‹¤. \n");
 	}
 	Found = MyList.Search(999);
 	if (Found)
 	{
-		printf("999¸¦ Ã£¾Ò½À´Ï´Ù. \n");
+		printf("999ë¥¼ ì°¾ì•˜ìŠµë‹ˆë‹¤. \n");
 
 	}
 	else
 	{
-		printf("999°¡ ¾ø½À´Ï´Ù. \n");
+		printf("999ê°€ ì—†ìŠµë‹ˆë‹¤. \n");
+
+	}
+}
+
+void lesson0918::PracticeLinkedListPrint()
+{
+	PracticeLinkedList PList;
+	PList.PracticeListPrint();
+	PList.PracticeAdd(10);
+	PList.PracticeAdd(30);
+	PList.PracticeAdd(50);
+	PList.PracticeAdd(20);
+	PList.PracticeListPrint();
+	PList.PracticeRemove(40);
+	PList.PracticeRemove(10);
+	PList.PracticeListPrint();
+	PList.PracticeRemove(50);
+	PList.PracticeListPrint();
+	PList.PracticeAdd(40);
+	PList.PracticeListPrint();
+
+	PList.PracticeAddAt(1, 0);
+	PList.PracticeAddAt(2, 3);
+	PList.PracticeAddAt(4, 4);
+	PList.PracticeListPrint();
+	
+	PList.PracticeRemoveAt(3);
+	PList.PracticeListPrint();
+
+	PracticeListNode* Found = PList.PracticeSearch(40);
+	if (Found)
+	{
+		printf("40ì„ ì°¾ì•˜ìŠµë‹ˆë‹¤. \n");
+	}
+	else
+	{
+		printf("40ì´ ì—†ìŠµë‹ˆë‹¤. \n");
+	}
+	Found = PList.PracticeSearch(999);
+	if (Found)
+	{
+		printf("999ë¥¼ ì°¾ì•˜ìŠµë‹ˆë‹¤. \n");
+
+	}
+	else
+	{
+		printf("999ê°€ ì—†ìŠµë‹ˆë‹¤. \n");
 
 	}
 }
