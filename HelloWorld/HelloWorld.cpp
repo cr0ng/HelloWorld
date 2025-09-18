@@ -24,7 +24,8 @@
 //#include "lesson0915.h"
 
 //#include "lesson0916.h"
-#include "lesson0917.h"
+//#include "lesson0917.h"
+#include "lesson0918.h"
 
 //using namespace std;
 
@@ -62,8 +63,11 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	printf("\n\n");
 	day0916.MazePlayerTest();*/
 	
-	Day0917 day0917;
-	day0917.TestAbstractClass();
+	/*Day0917 day0917;
+	day0917.TestAbstractClass();*/
+
+	lesson0918 lesson0918;
+	lesson0918.TestSingleLinkedList();
 
 	//Position pos2;
 	//Position pos2 = Position(); // 안되는 이유 기본생성자가 없어서

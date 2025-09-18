@@ -31,6 +31,9 @@
     <Filter Include="몬스터 시리즈">
       <UniqueIdentifier>{15fa07fd-8ff0-4494-9d1e-422f2676da88}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\자료구조">
+      <UniqueIdentifier>{2e1428bc-0a5c-4d13-8c17-0be71751b236}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -132,6 +135,24 @@
     <ClCompile Include="MazePlayer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Hawk.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson0918.cpp">
+      <Filter>소스 파일\Week3</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson0917.cpp">
+      <Filter>소스 파일\Week3</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -217,6 +238,33 @@
     </ClInclude>
     <ClInclude Include="MazePlayer.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Hawk.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ICanBattle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IFlyable.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lesson0917.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSample.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lesson0918.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>소스 파일\자료구조</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

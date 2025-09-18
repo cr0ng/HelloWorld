@@ -149,6 +149,8 @@
     <ClCompile Include="lesson0915.cpp" />
     <ClCompile Include="lesson0916.cpp" />
     <ClCompile Include="lesson0917.cpp" />
+    <ClCompile Include="lesson0918.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="MazePlayer.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Oak.cpp" />
@@ -185,6 +187,8 @@
     <ClInclude Include="lesson0915.h" />
     <ClInclude Include="lesson0916.h" />
     <ClInclude Include="lesson0917.h" />
+    <ClInclude Include="lesson0918.h" />
+    <ClInclude Include="LinkedList.h" />
     <ClInclude Include="MazePlayer.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="Oak.h" />
