@@ -130,6 +130,7 @@
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="Cat.cpp" />
     <ClCompile Include="CircularQueue.cpp" />
+    <ClCompile Include="CircularQueue2.cpp" />
     <ClCompile Include="Dog.cpp" />
     <ClCompile Include="EscapeMaze.cpp" />
     <ClCompile Include="FixedStack.cpp" />
@@ -175,6 +176,7 @@
     <ClInclude Include="Car.h" />
     <ClInclude Include="Cat.h" />
     <ClInclude Include="CircularQueue.h" />
+    <ClInclude Include="CircularQueue2.h" />
     <ClInclude Include="Dog.h" />
     <ClInclude Include="EscapeMaze.h" />
     <ClInclude Include="FixedStack.h" />

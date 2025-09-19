@@ -1,6 +1,6 @@
-#include "CircularQueue.h"
+#include "CircularQueue2.h"
 
-void CircularQueue::Enqueue(int InValue)
+void CircularQueue2::Enqueue(int InValue)
 {
 	if (IsFull())
 	{
@@ -16,7 +16,7 @@ void CircularQueue::Enqueue(int InValue)
 	Data[Rear] = InValue;
 }
 
-int CircularQueue::Dequeue()
+int CircularQueue2::Dequeue()
 {
 	if (IsEmpty())
 	{
@@ -30,7 +30,7 @@ int CircularQueue::Dequeue()
 		//일반적인 상황
 		Front = (Front + 1) % MaxSize;
 	}
-	else 
+	else
 	{
 		// 마지막으로 1개만 남은 상황
 		Front = Empty;
@@ -40,7 +40,7 @@ int CircularQueue::Dequeue()
 	return Result;
 }
 
-void CircularQueue::TestPrintQueue()
+void CircularQueue2::TestPrintQueue()
 {
 	// Front부터 Rear까지 출력하기
 	// 큐의 크기도 출력
