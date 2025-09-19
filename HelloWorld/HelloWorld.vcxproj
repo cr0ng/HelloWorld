@@ -140,6 +140,7 @@
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="HW0906.cpp" />
     <ClCompile Include="HW0913.cpp" />
+    <ClCompile Include="HW0920.cpp" />
     <ClCompile Include="lesson0902.cpp" />
     <ClCompile Include="lesson0903.cpp" />
     <ClCompile Include="lesson0904.cpp" />
@@ -163,6 +164,7 @@
     <ClCompile Include="PracticeLinkedList.cpp" />
     <ClCompile Include="Rabbit.cpp" />
     <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="Ship.cpp" />
     <ClCompile Include="Skeleton.cpp" />
     <ClCompile Include="TestMath.cpp" />
     <ClCompile Include="Tiger.cpp" />
@@ -185,6 +187,7 @@
     <ClInclude Include="header.h" />
     <ClInclude Include="HW0906.h" />
     <ClInclude Include="HW0913.h" />
+    <ClInclude Include="HW0920.h" />
     <ClInclude Include="ICanBattle.h" />
     <ClInclude Include="IFlyable.h" />
     <ClInclude Include="lesson0908.h" />
@@ -206,6 +209,7 @@
     <ClInclude Include="PracticeLinkedList.h" />
     <ClInclude Include="Rabbit.h" />
     <ClInclude Include="Shape.h" />
+    <ClInclude Include="Ship.h" />
     <ClInclude Include="Skeleton.h" />
     <ClInclude Include="TestMath.h" />
     <ClInclude Include="TestSample.h" />

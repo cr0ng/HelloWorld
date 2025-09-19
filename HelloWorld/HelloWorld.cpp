@@ -26,7 +26,9 @@
 //#include "lesson0916.h"
 //#include "lesson0917.h"
 //#include "lesson0918.h"
-#include "lesson0919.h"
+//#include "lesson0919.h"
+
+#include "HW0920.h"
 
 //using namespace std;
 
@@ -39,6 +41,10 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 {	
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 	srand(time(0));
+
+	HW0920 hw0920;
+	hw0920.BattleShip();
+
 	/*Position posA(1, 2);
 	Position posB(3, 1);
 	Position posC = posA + posB;
@@ -71,11 +77,11 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	//lesson0918.TestSingleLinkedList();
 	//lesson0918.PracticeLinkedListPrint();
 
-	lesson0919 lesson0919;
+	//lesson0919 lesson0919;
 	//lesson0919.TestStack();
 	//lesson0919.TestQueue();
 	//lesson0919.TestQueue2();
-	lesson0919.TestSwallowCopy();
+	//lesson0919.TestSwallowCopy();
 
 	//Position pos2;
 	//Position pos2 = Position(); // 안되는 이유 기본생성자가 없어서

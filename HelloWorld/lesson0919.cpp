@@ -155,8 +155,8 @@ void lesson0919::TestSwallowCopy()
 	//printf("\nc\n");
 	//c.TestPrintQueue();
 
-	TestSwallowCopy(a);			// 참조 넘기기
-	TestSwallowCopy(&a);		// 주소 넘기기
+	//TestSwallowCopy(a);			// 참조 넘기기
+	//TestSwallowCopy(&a);		// 주소 넘기기
 
 
 }

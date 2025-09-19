@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\자료구조">
       <UniqueIdentifier>{2e1428bc-0a5c-4d13-8c17-0be71751b236}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\배틀쉽">
+      <UniqueIdentifier>{ee18922c-6b3e-4318-bd49-7e0a961f4010}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -168,6 +171,12 @@
     <ClCompile Include="CircularQueue2.cpp">
       <Filter>소스 파일\자료구조</Filter>
     </ClCompile>
+    <ClCompile Include="HW0920.cpp">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -295,6 +304,12 @@
     </ClInclude>
     <ClInclude Include="CircularQueue2.h">
       <Filter>소스 파일\자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="HW0920.h">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>소스 파일\배틀쉽</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
