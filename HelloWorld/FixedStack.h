@@ -31,6 +31,8 @@ public:
 		return TopIndex + 1;
 	};
 
+	void PrintStack() const;
+
 private:
 	// 스택의 전체 크기
 	static constexpr int StackCapacity = 10;
@@ -38,7 +40,7 @@ private:
 	// 스택이 비어있음을 표시하기 위한 인덱스용 상수
 	static constexpr int Empty = -1;
 
-	// 현재 Top의 위치. Empty면 이버있다.
+	// 현재 Top의 위치. Empty면 비어있다.
 	int TopIndex = Empty;
 
 	// 스택의 데이터를 저장하는 배열

@@ -1,6 +1,8 @@
 #include "lesson0919.h"
 #include "FixedStack.h"
+#include "CircularQueue.h"
 #include <stdio.h>
+#include <iostream>
 
 void lesson0919::TestStack()
 {
@@ -64,5 +66,55 @@ void lesson0919::TestStack()
 	printf("Pop()\n");
 	Stack.Pop();
 	printf("스택 크기 : %d \n",Stack.GetSize());
+
+}
+
+void lesson0919::TestQueue()
+{
+	// 메뉴 만들기
+	// 1. Enqueue
+	// 2. Dequeue
+	// 3. Peek
+	// 4. TestPrintQueue
+	// 5. 종료
+	
+	CircularQueue Queue;
+	int ChooseMenu = -1;
+	int InData = 0;
+	printf(" 메뉴를 고르세요 \n");
+	printf("1.Enqueue\t2.Dequeue\t3.Peek\t4.TestPrintQueue\t5.종료\n");
+	std::cin >> ChooseMenu;
+
+	while (ChooseMenu != 5) {
+		if (ChooseMenu == 1) {
+			printf("1. Enqueue 선택, 큐에 넣을 값을 입력하세요.\n");
+			std::cin >> InData;
+			Queue.Enqueue(InData);
+		}
+		else if (ChooseMenu == 2) {
+			printf("2. Dequeue 선택, 큐를 하나 삭제합니다.\n");
+			Queue.Dequeue();
+		}
+		else if (ChooseMenu == 3) {
+			printf("3. Peek 선택, Front에 있는 값을 확인합니다.\n");
+			int ChoosePeek = Queue.Peek();
+			printf("%d \n", ChoosePeek);
+		}
+		else if (ChooseMenu == 4) {
+			printf("4. TestPrintQueue 선택, 큐 내부를 모두 출력합니다 .\n");
+			Queue.TestPrintQueue();
+		}
+		printf("\n\n메뉴를 고르세요 \n");
+		printf("1.Enqueue\t2.Dequeue\t3.Peek\t4.TestPrintQueue\t5.종료\n");
+		std::cin >> ChooseMenu;
+	}
+	
+}
+
+void lesson0919::TestQueue2()
+{
+	// 2.Circular Queue2 만들기
+	// 생성자에서 파라메티를 받아 크기를 조절 가능하게 만들기
+	int QueueSize = 0;
 
 }

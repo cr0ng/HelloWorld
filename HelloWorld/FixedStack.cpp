@@ -32,3 +32,9 @@ int FixedStack::Top() const
 	}
 	return Data[TopIndex];
 }
+
+void FixedStack::PrintStack() const
+{
+	//FixedStack* Stack;
+	//printf("스택 크기 : %d \n", Stack.GetSize());
+}

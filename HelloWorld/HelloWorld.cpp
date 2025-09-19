@@ -72,7 +72,8 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	//lesson0918.PracticeLinkedListPrint();
 
 	lesson0919 lesson0919;
-	lesson0919.TestStack();
+	//lesson0919.TestStack();
+	lesson0919.TestQueue();
 
 	//Position pos2;
 	//Position pos2 = Position(); // 안되는 이유 기본생성자가 없어서
