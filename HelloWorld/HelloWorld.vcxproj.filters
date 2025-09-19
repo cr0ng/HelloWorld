@@ -156,6 +156,12 @@
     <ClCompile Include="PracticeLinkedList.cpp">
       <Filter>소스 파일\자료구조</Filter>
     </ClCompile>
+    <ClCompile Include="lesson0919.cpp">
+      <Filter>소스 파일\Week3</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedStack.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -271,6 +277,12 @@
     </ClInclude>
     <ClInclude Include="PracticeLinkedList.h">
       <Filter>소스 파일\자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="lesson0919.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedStack.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
