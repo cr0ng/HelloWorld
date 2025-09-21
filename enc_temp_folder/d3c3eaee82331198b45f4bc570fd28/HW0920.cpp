@@ -93,7 +93,7 @@ void HW0920::PlayerAttack(int X, int Y)
 	// 입력한 좌표의 배열을 비교해서 함선이 없으면 Map에는 X, Miss 출력, 있으면 Map에는 O, Hit로 출력
     if (ShipMap[X][Y] == 'S') {
         //맞춤
-        BattleMap[X][Y] = 'O';
+        BattleMap[X][Y] = 'O'; // 왜 반영이 안되지
         printf("Hit..!\n");
     }
     else {

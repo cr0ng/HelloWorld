@@ -60,5 +60,3 @@ void Ship::RandomShipPosition(char ShipMap[10][10])
 	}
 	
 	// 함선이 크기 하나씩밖에 저장이 안됨..
-// 맞추면 격추 메세지 뜨는거
-// 게임 종료 아직 못함

@@ -1,7 +1,9 @@
 #pragma once
 class Ship
 {
-	void RandomShipPosition();
+public:
+	Ship() = default;
+	void RandomShipPosition(char ShipMap[10][10]);
 
 };
 
