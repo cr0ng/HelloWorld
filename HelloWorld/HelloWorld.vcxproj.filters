@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\배틀쉽">
       <UniqueIdentifier>{ee18922c-6b3e-4318-bd49-7e0a961f4010}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Week4">
+      <UniqueIdentifier>{6a7518d8-850e-4038-8ca1-8ba1b17af819}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -177,6 +180,27 @@
     <ClCompile Include="Ship.cpp">
       <Filter>소스 파일\배틀쉽</Filter>
     </ClCompile>
+    <ClCompile Include="lesson0922.cpp">
+      <Filter>소스 파일\Week4</Filter>
+    </ClCompile>
+    <ClCompile Include="HW0920TC.cpp">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClCompile>
+    <ClCompile Include="HiddenMap.cpp">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMap.cpp">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipTC.cpp">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipManager.cpp">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleShipTC.cpp">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -309,6 +333,30 @@
       <Filter>소스 파일\배틀쉽</Filter>
     </ClInclude>
     <ClInclude Include="Ship.h">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClInclude>
+    <ClInclude Include="lesson0922.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="HW0920TC.h">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClInclude>
+    <ClInclude Include="HiddenMap.h">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMap.h">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipTC.h">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipManager.h">
+      <Filter>소스 파일\배틀쉽</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleShipTC.h">
       <Filter>소스 파일\배틀쉽</Filter>
     </ClInclude>
   </ItemGroup>

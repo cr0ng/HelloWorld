@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="baekjoon.cpp" />
+    <ClCompile Include="BattleShipTC.cpp" />
     <ClCompile Include="Bird.cpp" />
     <ClCompile Include="BlackJack.cpp" />
     <ClCompile Include="Car.cpp" />
@@ -138,9 +139,11 @@
     <ClCompile Include="Hawk.cpp" />
     <ClCompile Include="header.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="HiddenMap.cpp" />
     <ClCompile Include="HW0906.cpp" />
     <ClCompile Include="HW0913.cpp" />
     <ClCompile Include="HW0920.cpp" />
+    <ClCompile Include="HW0920TC.cpp" />
     <ClCompile Include="lesson0902.cpp" />
     <ClCompile Include="lesson0903.cpp" />
     <ClCompile Include="lesson0904.cpp" />
@@ -155,16 +158,20 @@
     <ClCompile Include="lesson0917.cpp" />
     <ClCompile Include="lesson0918.cpp" />
     <ClCompile Include="lesson0919.cpp" />
+    <ClCompile Include="lesson0922.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="MazePlayer.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Oak.cpp" />
+    <ClCompile Include="PlayerMap.cpp" />
     <ClCompile Include="Position.cpp" />
     <ClCompile Include="Practice0905.cpp" />
     <ClCompile Include="PracticeLinkedList.cpp" />
     <ClCompile Include="Rabbit.cpp" />
     <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="ShipManager.cpp" />
+    <ClCompile Include="ShipTC.cpp" />
     <ClCompile Include="Skeleton.cpp" />
     <ClCompile Include="TestMath.cpp" />
     <ClCompile Include="Tiger.cpp" />
@@ -173,6 +180,7 @@
   <ItemGroup>
     <ClInclude Include="Animal.h" />
     <ClInclude Include="baekjoon.h" />
+    <ClInclude Include="BattleShipTC.h" />
     <ClInclude Include="Bird.h" />
     <ClInclude Include="BlackJack.h" />
     <ClInclude Include="Car.h" />
@@ -185,9 +193,11 @@
     <ClInclude Include="Goblin.h" />
     <ClInclude Include="Hawk.h" />
     <ClInclude Include="header.h" />
+    <ClInclude Include="HiddenMap.h" />
     <ClInclude Include="HW0906.h" />
     <ClInclude Include="HW0913.h" />
     <ClInclude Include="HW0920.h" />
+    <ClInclude Include="HW0920TC.h" />
     <ClInclude Include="ICanBattle.h" />
     <ClInclude Include="IFlyable.h" />
     <ClInclude Include="lesson0908.h" />
@@ -200,16 +210,21 @@
     <ClInclude Include="lesson0917.h" />
     <ClInclude Include="lesson0918.h" />
     <ClInclude Include="lesson0919.h" />
+    <ClInclude Include="lesson0922.h" />
     <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Map.h" />
     <ClInclude Include="MazePlayer.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="Oak.h" />
+    <ClInclude Include="PlayerMap.h" />
     <ClInclude Include="Position.h" />
     <ClInclude Include="Practice0905.h" />
     <ClInclude Include="PracticeLinkedList.h" />
     <ClInclude Include="Rabbit.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="Ship.h" />
+    <ClInclude Include="ShipManager.h" />
+    <ClInclude Include="ShipTC.h" />
     <ClInclude Include="Skeleton.h" />
     <ClInclude Include="TestMath.h" />
     <ClInclude Include="TestSample.h" />

@@ -28,7 +28,9 @@
 //#include "lesson0918.h"
 //#include "lesson0919.h"
 
-#include "HW0920.h"
+//#include "HW0920.h"
+#include "lesson0922.h"
+#include "Position.h"
 
 //using namespace std;
 
@@ -42,8 +44,11 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 	srand(time(0));
 
-	HW0920 hw0920;
-	hw0920.BattleShip();
+	/*HW0920 hw0920;
+	hw0920.BattleShip();*/
+
+	lesson0922 lesson0922;
+	lesson0922.TestBattlerShip();
 
 	/*Position posA(1, 2);
 	Position posB(3, 1);
