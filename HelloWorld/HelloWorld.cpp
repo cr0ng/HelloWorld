@@ -29,7 +29,8 @@
 //#include "lesson0919.h"
 
 //#include "HW0920.h"
-#include "lesson0922.h"
+//#include "lesson0922.h"
+#include "lesson0923.h"
 #include "Position.h"
 
 //using namespace std;
@@ -47,8 +48,17 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	/*HW0920 hw0920;
 	hw0920.BattleShip();*/
 
-	lesson0922 lesson0922;
-	lesson0922.TestBattlerShip();
+	//lesson0922 lesson0922;
+	//lesson0922.TestBattlerShip();
+	//lesson0922.TestTree();
+
+	lesson0923 lesson0923;
+	//lesson0923.TestTemplateClass();
+	//lesson0923.TestCalculator();
+	//lesson0923.TestVector();
+	lesson0923.TestVectorPracice();
+
+
 
 	/*Position posA(1, 2);
 	Position posB(3, 1);

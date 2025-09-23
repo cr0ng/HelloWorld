@@ -102,6 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -126,6 +127,7 @@
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="baekjoon.cpp" />
     <ClCompile Include="BattleShipTC.cpp" />
+    <ClCompile Include="BinarySearchTree.cpp" />
     <ClCompile Include="Bird.cpp" />
     <ClCompile Include="BlackJack.cpp" />
     <ClCompile Include="Car.cpp" />
@@ -159,6 +161,7 @@
     <ClCompile Include="lesson0918.cpp" />
     <ClCompile Include="lesson0919.cpp" />
     <ClCompile Include="lesson0922.cpp" />
+    <ClCompile Include="lesson0923.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="MazePlayer.cpp" />
     <ClCompile Include="Monster.cpp" />
@@ -173,6 +176,7 @@
     <ClCompile Include="ShipManager.cpp" />
     <ClCompile Include="ShipTC.cpp" />
     <ClCompile Include="Skeleton.cpp" />
+    <ClCompile Include="TemplateCalculator.cpp" />
     <ClCompile Include="TestMath.cpp" />
     <ClCompile Include="Tiger.cpp" />
     <ClCompile Include="Zombie.cpp" />
@@ -181,12 +185,14 @@
     <ClInclude Include="Animal.h" />
     <ClInclude Include="baekjoon.h" />
     <ClInclude Include="BattleShipTC.h" />
+    <ClInclude Include="BinarySearchTree.h" />
     <ClInclude Include="Bird.h" />
     <ClInclude Include="BlackJack.h" />
     <ClInclude Include="Car.h" />
     <ClInclude Include="Cat.h" />
     <ClInclude Include="CircularQueue.h" />
     <ClInclude Include="CircularQueue2.h" />
+    <ClInclude Include="Coordinate.h" />
     <ClInclude Include="Dog.h" />
     <ClInclude Include="EscapeMaze.h" />
     <ClInclude Include="FixedStack.h" />
@@ -211,6 +217,7 @@
     <ClInclude Include="lesson0918.h" />
     <ClInclude Include="lesson0919.h" />
     <ClInclude Include="lesson0922.h" />
+    <ClInclude Include="lesson0923.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="MazePlayer.h" />
@@ -226,6 +233,7 @@
     <ClInclude Include="ShipManager.h" />
     <ClInclude Include="ShipTC.h" />
     <ClInclude Include="Skeleton.h" />
+    <ClInclude Include="TemplateCalculator.h" />
     <ClInclude Include="TestMath.h" />
     <ClInclude Include="TestSample.h" />
     <ClInclude Include="Tiger.h" />
