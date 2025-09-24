@@ -210,6 +210,9 @@
     <ClCompile Include="TemplateCalculator.cpp">
       <Filter>소스 파일\Week4</Filter>
     </ClCompile>
+    <ClCompile Include="lesson0924.cpp">
+      <Filter>소스 파일\Week4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -378,6 +381,9 @@
       <Filter>소스 파일\Week4</Filter>
     </ClInclude>
     <ClInclude Include="TemplateCalculator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lesson0924.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

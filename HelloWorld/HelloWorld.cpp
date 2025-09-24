@@ -30,7 +30,8 @@
 
 //#include "HW0920.h"
 //#include "lesson0922.h"
-#include "lesson0923.h"
+//#include "lesson0923.h"
+#include "lesson0924.h"
 #include "Position.h"
 
 //using namespace std;
@@ -52,12 +53,20 @@ int main() // 엔트리 포인트 (코드가 시작되는 곳)
 	//lesson0922.TestBattlerShip();
 	//lesson0922.TestTree();
 
-	lesson0923 lesson0923;
+	//lesson0923 lesson0923;
 	//lesson0923.TestTemplateClass();
 	//lesson0923.TestCalculator();
 	//lesson0923.TestVector();
-	lesson0923.TestVectorPracice();
+	//lesson0923.TestVectorPracice();
 
+	lesson0924 lesson0924;
+	//lesson0924.TestLamda();
+	//lesson0924.TestLambda2();
+	//lesson0924.TestLambdaPractice();
+	//lesson0924.TestSet();
+	//lesson0924.TestSetPractice();
+	//lesson0924.TestMap();
+	lesson0924.TestUnOrderedMap();
 
 
 	/*Position posA(1, 2);
